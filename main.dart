@@ -17,8 +17,16 @@ class myApp extends StatelessWidget {
         backgroundColor: Colors.blueGrey,
         body: SafeArea(
           child: Center(
-            child: dice(
-              color: Colors.white,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                dice(
+                  color: Colors.white,
+                ),
+                 dice(
+                  color: Colors.white,
+                ),
+              ],
             ),
           ),
         ),
